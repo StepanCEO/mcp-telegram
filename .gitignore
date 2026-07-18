@@ -1,0 +1,15 @@
+# Secrets and sessions — NEVER commit these
+.env
+*.session
+*.session-journal
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
